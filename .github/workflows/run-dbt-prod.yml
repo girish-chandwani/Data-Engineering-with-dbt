@@ -10,8 +10,8 @@ on:
   #   - cron: '0 8 * * *'
 
 env:
-  DBT_PROFILES_DIR: ./nyc_parking_violations
-  DBT_PROJECT_DIR: ./nyc_parking_violations
+  DBT_PROFILES_DIR: .
+  DBT_PROJECT_DIR: .
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python 3.10
+    - name: Set up Python 3.11
       uses: actions/setup-python@v3
       with:
         python-version: "3.11"
