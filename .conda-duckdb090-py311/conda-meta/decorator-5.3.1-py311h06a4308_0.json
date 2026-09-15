@@ -1,0 +1,129 @@
+{
+  "name": "decorator",
+  "version": "5.3.1",
+  "build": "py311h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "decorator-5.3.1-py311h06a4308_0.conda",
+  "md5": "1281080afd56192e954b5de3119e07eb",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/decorator-5.3.1-py311h06a4308_0.conda",
+  "sha256": "552924b918888f4caf7c0a936e284c8e04140d32048d860c2ee8bf6422dc6924",
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "constrains": [],
+  "license": "BSD-2-Clause",
+  "timestamp": 1781691331000,
+  "size": 44522,
+  "_requested_specs": [],
+  "package_tarball_full_path": "/opt/conda/pkgs/decorator-5.3.1-py311h06a4308_0.conda",
+  "extracted_package_dir": "/opt/conda/pkgs/decorator-5.3.1-py311h06a4308_0",
+  "files": [
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/licenses/LICENSE.txt",
+    "lib/python3.11/site-packages/decorator-5.3.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/decorator/__init__.py",
+    "lib/python3.11/site-packages/decorator/__init__.pyi",
+    "lib/python3.11/site-packages/decorator/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/decorator/py.typed"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2133792485403bbd739e1db5960228bedbcde6d00c0acc052b27f39dbae5b5c4",
+        "size_in_bytes": 3886,
+        "sha256_in_prefix": "2133792485403bbd739e1db5960228bedbcde6d00c0acc052b27f39dbae5b5c4"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "593adea1837de58d0638a651a9161b5eb4a9e9823f215015d04a9dbcf1604948",
+        "size_in_bytes": 974,
+        "sha256_in_prefix": "593adea1837de58d0638a651a9161b5eb4a9e9823f215015d04a9dbcf1604948"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e291ba16f21750db47e15e93bb9835b2b3330e2f62af2f71b7d51b37be5f7d67",
+        "size_in_bytes": 95,
+        "sha256_in_prefix": "e291ba16f21750db47e15e93bb9835b2b3330e2f62af2f71b7d51b37be5f7d67"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "bd12cc51405c10872497c10ca21601f1d4abc50496595cc89e89ab5dad24fb62",
+        "size_in_bytes": 1308,
+        "sha256_in_prefix": "bd12cc51405c10872497c10ca21601f1d4abc50496595cc89e89ab5dad24fb62"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator-5.3.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "size_in_bytes": 10,
+        "sha256_in_prefix": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "47c88707c658cb85d377454fa9254c38b441ee476e5308332a469e2ed2439983",
+        "size_in_bytes": 17366,
+        "sha256_in_prefix": "47c88707c658cb85d377454fa9254c38b441ee476e5308332a469e2ed2439983"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "5839c4b315d31afa532a6b00a0969548b6e75914dec577802cbe669e25a2ecef",
+        "size_in_bytes": 2896,
+        "sha256_in_prefix": "5839c4b315d31afa532a6b00a0969548b6e75914dec577802cbe669e25a2ecef"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9e30947be108144cd766b531ac4b9b24a102cd2c2fb9fbedcb2e9becbce52f4",
+        "size_in_bytes": 24804,
+        "sha256_in_prefix": "d9e30947be108144cd766b531ac4b9b24a102cd2c2fb9fbedcb2e9becbce52f4"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/decorator/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/conda/pkgs/decorator-5.3.1-py311h06a4308_0",
+    "type": 1
+  }
+}

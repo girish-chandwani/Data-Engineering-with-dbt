@@ -1,0 +1,13 @@
+prefix=/workspaces/Data-Engineering-with-dbt/.conda-duckdb090-py311
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.9
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/workspaces/Data-Engineering-with-dbt/.conda-duckdb090-py311/lib -lz -L/workspaces/Data-Engineering-with-dbt/.conda-duckdb090-py311/lib -llzma  -L/workspaces/Data-Engineering-with-dbt/.conda-duckdb090-py311/lib  -lm   
+Cflags: -I${includedir}/libxml2 -I/workspaces/Data-Engineering-with-dbt/.conda-duckdb090-py311/include 

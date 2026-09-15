@@ -1,0 +1,7 @@
+prefix=/workspaces/Data-Engineering-with-dbt/.conda-duckdb090-py311
+includedir=${prefix}/include
+
+Name: XF86VidModeProto
+Description: XF86VidMode extension headers
+Version: 2.3.1
+Cflags: -I${includedir}

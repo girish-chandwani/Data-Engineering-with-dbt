@@ -1,0 +1,11 @@
+prefix=/workspaces/Data-Engineering-with-dbt/.conda-duckdb090
+exec_prefix=/workspaces/Data-Engineering-with-dbt/.conda-duckdb090
+libdir=/workspaces/Data-Engineering-with-dbt/.conda-duckdb090/lib
+includedir=/workspaces/Data-Engineering-with-dbt/.conda-duckdb090/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
