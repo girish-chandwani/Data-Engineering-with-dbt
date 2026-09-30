@@ -29,18 +29,38 @@ python -m pip install -r requirements.txt
 ```
 
 The dependencies include dbt Core and the DuckDB adapter. The dbt profile is
-provided in `nyc_parking_violations/profiles.yml`, so pass that directory as the
-profiles directory when running dbt.
+provided in `nyc_parking_violations/profiles.yml`. Run dbt commands from that
+directory so the relative DuckDB path in the profile resolves correctly.
 
 ## Run the dbt project
 
-From the repository root, validate the connection and build the models:
+From the repository root, enter the dbt project directory, then validate the
+connection and build the models:
 
 ```bash
-dbt debug --project-dir nyc_parking_violations --profiles-dir nyc_parking_violations
-dbt run --project-dir nyc_parking_violations --profiles-dir nyc_parking_violations
-dbt test --project-dir nyc_parking_violations --profiles-dir nyc_parking_violations
+cd nyc_parking_violations
+dbt debug --profiles-dir .
+dbt run --profiles-dir .
+dbt test --profiles-dir .
 ```
 
 The gold models are materialized as tables. dbt build artifacts and the local
 DuckDB database are generated locally and are excluded from Git.
+
+## Explore dbt docs and lineage
+
+After running the models above, generate and serve the docs from the repository
+root:
+
+```bash
+cd nyc_parking_violations
+dbt docs generate --profiles-dir .
+dbt docs serve --profiles-dir .
+```
+
+Open the local URL printed by `dbt docs serve` (by default,
+`http://localhost:8080`). The docs site includes model descriptions, columns,
+tests, and an interactive lineage graph. Use the graph to trace dependencies
+between the bronze, silver, and gold models, and select a model to inspect its
+upstream and downstream dependencies. Regenerate the docs after changing the
+project to refresh the graph and metadata.
