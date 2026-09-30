@@ -64,3 +64,11 @@ tests, and an interactive lineage graph. Use the graph to trace dependencies
 between the bronze, silver, and gold models, and select a model to inspect its
 upstream and downstream dependencies. Regenerate the docs after changing the
 project to refresh the graph and metadata.
+
+### Lineage graph
+
+![dbt lineage graph](nyc_parking_violations/models/docs/images/Lineage%20Graph.png)
+
+### Database overview
+
+![dbt docs database overview](nyc_parking_violations/models/docs/images/dbt%20Database%20overview.png)
