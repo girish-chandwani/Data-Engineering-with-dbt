@@ -1,0 +1,18 @@
+# Local Python environments
+.conda*/
+.venv*/
+venv/
+
+# Python and notebook cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated dbt artifacts
+nyc_parking_violations/target/
+nyc_parking_violations/dbt_packages/
+nyc_parking_violations/logs/
+
+# Local DuckDB databases
+data/*.db
+data/*.wal
